@@ -1,0 +1,41 @@
+body{
+    background-color:#0a244d ;
+    color:antiquewhite
+}
+
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-container{
+    margin-top: 10px;
+}
+img{
+    margin-top: 10px;
+}
+
+input{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: 2px 4px 10px 5px rgba(239, 233, 233, 0.1);
+}
+
+input:focus{
+    outline:none
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px 5px rgba(239, 233, 233, 0.1);
+}
+
+button:hover{
+    cursor: pointer;
+}
